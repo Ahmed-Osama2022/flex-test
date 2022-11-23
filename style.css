@@ -23,11 +23,15 @@ body {
     flex-flow: row wrap;
     border-radius: 33px;
     background-color: #aaa;
+    overflow-x: auto;
+    overflow-x: auto;
 
 }
 .box {
-    width: calc(100% / 3);
-    
+    /* width: calc(60% / 2); */
+    width: 90%;
+    min-width: fit-content;
+
     font-size: 1.3em;
     font-weight: bold;
     margin: 10px ;
